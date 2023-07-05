@@ -1,4 +1,4 @@
-package main.java.org.firstinspires.ftc.teamcode.Autonomo;
+package main.java.org.firstinspires.ftc.teamcode4010.Autonomo;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
