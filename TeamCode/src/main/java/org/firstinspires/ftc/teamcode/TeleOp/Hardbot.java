@@ -1,4 +1,4 @@
-package main.java.org.firstinspires.ftc.teamcode4010.TeleOp;
+package main.java.org.firstinspires.ftc.teamcode.TeleOp;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
