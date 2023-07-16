@@ -6,6 +6,7 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
+import main.java.org.firstinspires.ftc.teamcode.TeleOp.Hardbot;
 
 
 @Autonomous(name="Autónomo Azul Estacionarse", group="Blue Alliance")
