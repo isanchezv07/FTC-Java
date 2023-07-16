@@ -1,10 +1,14 @@
-## TeamCode Module
+# Nautilus-4010
 
-Welcome!
+Bienbenido! 
 
-This module, TeamCode, is the place where you will write/paste the code for your team's
-robot controller App. This module is currently empty (a clean slate) but the
-process for adding OpModes is straightforward.
+En esta carpeta vas a encontrar varios ejemplos ya hechos por los miembros de Nautilus para que puedan aprender como funciona la programacion detras de los robots de FTC(First Tech Challenge).
+
+Es de suma importancia leer todos los comentarios que tenga el codigo, ya que es de suma importancia para entender el codigo y no perderse.
+
+Cualquier duda del codigo o del funcionamiento de Hardware, puedes acercarte a cualquier miembro que este en la area de ingenieria y programacion para poder responder a todas las dudas que tengas.
+
+#### A continuacion te dejo paso a paso como puedes crear tu propio codigo.
 
 ## Creating your own OpModes
 
