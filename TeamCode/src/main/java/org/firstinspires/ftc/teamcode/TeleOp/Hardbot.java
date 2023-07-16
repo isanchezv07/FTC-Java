@@ -2,17 +2,13 @@ package main.java.org.firstinspires.ftc.teamcode.TeleOp;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.Servo;
-import com.qualcomm.robotcore.hardware.CRServo;
 import com.qualcomm.hardware.bosch.BNO055IMU;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 import org.firstinspires.ftc.robotcore.external.navigation.Acceleration;
 import com.qualcomm.hardware.bosch.JustLoggingAccelerationIntegrator;
-import com.qualcomm.hardware.rev.RevColorSensorV3;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.DcMotorSimple;
-import org.firstinspires.ftc.robotcore.external.navigation.AxesReference;
-import org.firstinspires.ftc.robotcore.external.navigation.AxesOrder;
 import org.firstinspires.ftc.robotcore.external.navigation.AngleUnit;
 import com.qualcomm.robotcore.util.Range;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
@@ -60,7 +56,6 @@ public class Hardbot {
 
     public void initializeHardware(){
         HardwareMap hardwareMap = this.program.hardwareMap;
-        carouselServomotor = hardwareMap.get(CRServo.class, "servoCarrusel");
         frontLeft = hardwareMap.get(DcMotor.class, "front_left");
         frontRight = hardwareMap.get(DcMotor.class, "front_right");
         backLeft = hardwareMap.get(DcMotor.class, "back_left");
@@ -69,24 +64,6 @@ public class Hardbot {
         backLeft.setDirection(DcMotor.Direction.REVERSE);
         imu = hardwareMap.get(BNO055IMU.class, "imu2");
         initIMU();
-        motorElevator = hardwareMap.get(DcMotor.class, "elevatorMotor");
-        motorElevator.setDirection(DcMotorSimple.Direction.FORWARD);
-        servoElevator = hardwareMap.get(Servo.class, "elevatorServomotor");
-        motorIntake = hardwareMap.get(DcMotor.class, "intakeMotor");
-        motorIntake.setDirection(DcMotorSimple.Direction.REVERSE);
-        servoElevator.setPosition(ELEVATOR_SERVO_LOW);
-    }
-
-    public void carouselMove(double lap) {
-        double carouselPower = 0;
-        if (lap >= 1) {
-            carouselPower = lap;
-        } else if (lap <= -1) {
-            carouselPower = lap;
-        } else {
-            carouselPower = 0;
-        }
-        carouselServomotor.setPower(carouselPower);
     }
 
     public void initIMU() {
@@ -187,28 +164,6 @@ public class Hardbot {
             String.format("BR: %.2f", backRight.getPower())
         };
         return powers;
-    }
-    
-    public void bajarElevador() {
-        this.motorElevator.setPower(-ELEVATOR_POWER);
-    }
-    
-    public void subirElevador() {
-        this.motorElevator.setPower(ELEVATOR_POWER);
-    }
-
-    public void setElevatorLevel(int nivel){
-        LinearOpMode aux = (LinearOpMode) program;
-        double power = 0.6;
-        motorElevator.setPower(power);
-        if(nivel == 1){
-            aux.sleep(NIVEL_UNO);
-        } else if(nivel == 2){
-            aux.sleep(NIVEL_DOS);
-        } else if(nivel == 3){
-            aux.sleep(NIVEL_TRES);
-        }
-        motorElevator.setPower(0);
     }
 
     private void setChasisRunMode(DcMotor.RunMode runmode){
