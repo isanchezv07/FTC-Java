@@ -14,7 +14,7 @@ import com.qualcomm.robotcore.util.Range;
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 
 
-public class Hardbot {
+public class HardWareMap {
 
     private final double LIMIT = 10;
     public static final int TICKS_PER_CM = 25;
@@ -24,30 +24,10 @@ public class Hardbot {
     public DcMotor backLeft;
     public DcMotor backRight;
 
-    public DcMotor motorElevator;
-    public Servo servoElevator;
-    public long NIVEL_UNO = 400L;
-    public long NIVEL_DOS = 800L;
-    public long NIVEL_TRES = 1200L;
-    public static final double ELEVATOR_POWER = 0.3;
-    private final double INCREMENTO = 0.06;
-    private final double LIMITE = 20; // En cm
-    public static final double ELEVATOR_SERVO_TOP = 0;
-    public static final double ELEVATOR_SERVO_MID = 0.67;
-    public static final double ELEVATOR_SERVO_LOW = 0.7;
-
     private BNO055IMU imu;
     private Orientation angles;
     private Acceleration gravity;
-
-    public CRServo carouselServomotor;
-
-    public DcMotor motorIntake;
-    public static final double INTAKE_POWER = 0.9;
-
     private OpMode program;
-
-    private RobotVision vision;
     
     public Hardbot(OpMode program){
         this.program = program;
