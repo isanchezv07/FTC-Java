@@ -1,6 +1,10 @@
-# NAUTILUS 4010 - README
+# NAUTILUS 4010 
+Bienbenido!
 
-¡Bienvenido a NAUTILUS 4010!
+
+En esta carpeta vas a encontrar varios ejemplos ya hechos por los miembros de Nautilus para que puedan aprender como funciona la programacion detras de los robots de FTC(First Tech Challenge).
+
+Es de suma importancia leer todos los comentarios que tenga el codigo, ya que es de suma importancia para entender el codigo y no perderse.
 
 ## Introducción
 
@@ -9,7 +13,6 @@ Este es el código fuente del equipo NAUTILUS 4010, desarrollado para la compete
 ## Descripción General
 
 El código NAUTILUS 4010 está escrito en Java y está diseñado para ser ejecutado en la plataforma FTC utilizando el SDK de FTC proporcionado por Qualcomm. El objetivo principal del código es controlar el robot para realizar diversas tareas durante las competencias de FTC.
-<a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardWareMap.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardWareMap.java`</a>
 
 ## Estructura del Proyecto
 
