@@ -8,10 +8,22 @@ Es de suma importancia leer todos los comentarios que tenga el codigo, ya que es
 
 Cualquier duda del codigo o del funcionamiento de Hardware, puedes acercarte a cualquier miembro que este en el area de ingenieria y programacion para poder responder a todas las dudas que tengas.
 
-- [Archivo principal del codigo](TeamCode/src/main/java/arg/firstinspires/ftc/teamcode/TeleOpRobot.java)
+- [Archivo principal del codigo]()
 ## Que hace cada parte del codigo
+
+## Estructura del Proyecto
+
+El archivo importante se encuentra en la siguiente ruta:
+
+- `TeamCode/CarpetaC/CarpetaD/ArchivoImportante.java`
+
 
 ## Estructura del Proyecto
 
 - Carpeta de código fuente: `src`
   - Archivo importante: `src/mi_archivo.java`
+
+
+
+  <a href="TeamCode/CarpetaC/CarpetaD/ArchivoImportante.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;">Ver archivo principal</a>
+
