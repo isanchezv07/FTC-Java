@@ -94,7 +94,7 @@ A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y c
 # Autonomo
 ## ¿Cómo Funciona el Programa Autonomo?
 
-El programa Autonomo se ejecuta cuando el robot está en modo autónomo. En este modo, el robot realizará una acción específica sin intervención humana. El programa Autonomo contiene los siguientes pasos:
+El programa Autonomo se ejecuta cuando el robot está en modo autónomo. En este modo, el robot realizará una acción específica sin intervención humana. El programa Autonomo contiene los siguientes pasos:<br>
 El codigo que se estara explicando es: <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomo.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomo.java`</a>
 
 1. **Inicialización del Hardware**
