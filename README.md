@@ -46,12 +46,6 @@ La clase `HardWareMap` también contiene métodos para configurar y utilizar los
 ## Aviso
 
 Este código es una base para el desarrollo del robot y puede ser modificado y mejorado según las necesidades del equipo. Se recomienda comprender completamente cada método antes de realizar cambios significativos.
-
-## Contacto
-
-Si tienes alguna pregunta o deseas obtener más información sobre NAUTILUS 4010, no dudes en contactarnos a través de nuestro sitio web o redes sociales.
-
-¡Gracias por tu interés en NAUTILUS 4010! Esperamos que disfrutes aprendiendo y explorando el mundo de la robótica y la programación con nosotros. ¡Buena suerte en tus aventuras con FTC! 🚀
 <br>
 <br>
 <br>
@@ -92,12 +86,6 @@ A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y c
 5. Utiliza los sticks y botones del gamepad para controlar el movimiento del robot.
 
 6. ¡Diviértete explorando las capacidades de NAUTILUS 4010 mientras lo controlas!
-
-## Nota para Principiantes
-
-Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
-
-¡Disfruta de la programación y el emocionante mundo de la robótica FTC con NAUTILUS 4010!
 <br>
 <br>
 <br>
@@ -133,3 +121,11 @@ Para usar el programa Autonomo en el robot NAUTILUS 4010, sigue estos pasos:
 Recuerda que este es solo un ejemplo básico del programa Autonomo. Puedes modificar el código para que el robot realice diferentes acciones y tareas de acuerdo con los requerimientos de tu competición o proyecto.
 
 ¡Diviértete explorando y programando con NAUTILUS 4010! Si tienes alguna pregunta o necesitas ayuda adicional, no dudes en consultar la documentación de FTC o buscar recursos en línea para aprender más sobre la programación de robots. ¡Buena suerte!
+
+
+
+## Nota para Principiantes
+
+Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
+
+¡Gracias por tu interés en NAUTILUS 4010! Esperamos que disfrutes aprendiendo y explorando el mundo de la robótica y la programación con nosotros. ¡Buena suerte en tus aventuras con FTC! 🚀
