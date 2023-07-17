@@ -9,11 +9,11 @@ Es de suma importancia leer todos los comentarios que tenga el codigo, ya que es
 Cualquier duda del codigo o del funcionamiento de Hardware, puedes acercarte a cualquier miembro que este en el area de ingenieria y programacion para poder responder a todas las dudas que tengas.
 
 Todo el codigo principal esta esta en la siguiente ruta:
-- `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java`
+
+<a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardWareMap.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardWareMap.java`</a>
+
 ## Que hace cada parte del codigo
 
 ## Estructura del Proyecto
 
 El archivo importante se encuentra en la siguiente ruta:
-
-<a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardWareMap.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/HardWareMap.java`</a>
