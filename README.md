@@ -51,4 +51,49 @@ Este código es una base para el desarrollo del robot y puede ser modificado y m
 Si tienes alguna pregunta o deseas obtener más información sobre NAUTILUS 4010, no dudes en contactarnos a través de nuestro sitio web o redes sociales.
 
 ¡Gracias por tu interés en NAUTILUS 4010! Esperamos que disfrutes aprendiendo y explorando el mundo de la robótica y la programación con nosotros. ¡Buena suerte en tus aventuras con FTC! 🚀
+<br>
+<br>
+<br>
+<br>
+# TeleOpRobot
 
+## Función del programa TeleOpRobot
+
+### Inicialización
+
+Al ejecutar el programa TeleOpRobot, se lleva a cabo una secuencia de inicialización. En este paso, el robot establece la conexión con los componentes de hardware necesarios para su funcionamiento. Además, se muestra información de telemetría en la pantalla para verificar que todo esté en orden.
+El codigo que se estara explicando es: <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java`</a>
+
+### Control Teleoperado
+
+El programa TeleOpRobot permite controlar el robot de manera teleoperada utilizando un gamepad de control. Las siguientes funcionalidades son fundamentales para el control del robot:
+
+1. **Movimiento del Chasis**
+
+   El chasis del robot puede moverse en múltiples direcciones: adelante, atrás, lateralmente y girar sobre sí mismo. Estos movimientos son controlados utilizando los sticks del gamepad.
+
+2. **Ajuste de Velocidad**
+
+   Para mayor comodidad, el programa ofrece diferentes niveles de velocidad ajustables mediante los botones del gamepad. Esto permite al conductor adaptar la velocidad del robot según la situación.
+
+## Uso del Programa
+
+A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y controlar el robot NAUTILUS 4010:
+
+1. Asegúrate de haber cargado este código en el sistema de control FTC y haber conectado correctamente todos los componentes del robot.
+
+2. Enciende el robot y asegúrate de que el gamepad esté emparejado con el sistema de control.
+
+3. Ejecuta el programa TeleOpRobot desde la estación de control.
+
+4. Observa la telemetría mostrada en la pantalla para verificar la conexión del robot.
+
+5. Utiliza los sticks y botones del gamepad para controlar el movimiento del robot.
+
+6. ¡Diviértete explorando las capacidades de NAUTILUS 4010 mientras lo controlas!
+
+## Nota para Principiantes
+
+Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
+
+¡Disfruta de la programación y el emocionante mundo de la robótica FTC con NAUTILUS 4010!
