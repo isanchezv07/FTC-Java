@@ -25,5 +25,5 @@ El archivo importante se encuentra en la siguiente ruta:
 
 
 
-  <a href="TeamCode/CarpetaC/CarpetaD/ArchivoImportante.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;">Ver archivo principal</a>
+  <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;">Ver archivo principal</a>
 
