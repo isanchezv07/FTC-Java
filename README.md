@@ -97,3 +97,38 @@ A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y c
 Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
 
 ¡Disfruta de la programación y el emocionante mundo de la robótica FTC con NAUTILUS 4010!
+<br>
+<br>
+<br>
+<br>
+# Autonomo
+## ¿Cómo Funciona el Programa Autonomo?
+
+El programa Autonomo se ejecuta cuando el robot está en modo autónomo. En este modo, el robot realizará una acción específica sin intervención humana. El programa Autonomo contiene los siguientes pasos:
+El codigo que se estara explicando es: <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomo.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/Autonomo.java`</a>
+
+1. **Inicialización del Hardware**
+
+   En el método `runOpMode()`, el programa inicializa los componentes del robot llamando al método `initializeHardware()` de la clase `HardWareMap`. Esto asegura que todos los motores y sensores estén listos para funcionar.
+
+2. **Espera para Iniciar**
+
+   El programa espera a que se presione el botón "Play" en el control de la estación para comenzar la ejecución autónoma. La línea `waitForStart()` indica al programa que espere hasta que el árbitro inicie el modo autónomo.
+
+3. **Movimiento del Robot**
+
+   Una vez iniciado el modo autónomo, el robot realiza una acción específica. En este caso, el robot se mueve hacia adelante durante 5 centímetros utilizando el método `moveForward(5)` de la clase `HardWareMap`.
+
+## Uso del Programa Autonomo
+
+Para usar el programa Autonomo en el robot NAUTILUS 4010, sigue estos pasos:
+
+1. Asegúrate de haber cargado este código en el sistema de control FTC y haber conectado correctamente todos los componentes del robot.
+
+2. Enciende el robot y asegúrate de que el gamepad esté emparejado con el sistema de control.
+
+3. Ejecuta el programa Autonomo desde la estación de control para comenzar el modo autónomo. El robot realizará automáticamente la acción especificada (en este caso, moverse hacia adelante por 5 centímetros).
+
+Recuerda que este es solo un ejemplo básico del programa Autonomo. Puedes modificar el código para que el robot realice diferentes acciones y tareas de acuerdo con los requerimientos de tu competición o proyecto.
+
+¡Diviértete explorando y programando con NAUTILUS 4010! Si tienes alguna pregunta o necesitas ayuda adicional, no dudes en consultar la documentación de FTC o buscar recursos en línea para aprender más sobre la programación de robots. ¡Buena suerte!
