@@ -8,7 +8,7 @@ Es de suma importancia leer todos los comentarios que tenga el codigo, ya que es
 
 Cualquier duda del codigo o del funcionamiento de Hardware, puedes acercarte a cualquier miembro que este en el area de ingenieria y programacion para poder responder a todas las dudas que tengas.
 
-- [Los codigos principales del robot](src/main/java/arg/firstinspires/ftc/teamcode)
+- [Archivo principal del codigo](src/main/java/arg/firstinspires/ftc/teamcode/TeleOpRobot.java)
 ## Que hace cada parte del codigo
 
 ## Estructura del Proyecto
