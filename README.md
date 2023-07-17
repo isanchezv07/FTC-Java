@@ -26,5 +26,5 @@ El archivo importante se encuentra en la siguiente ruta:
 
 
 
-  <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;">- `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java`</a>
+  <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java`</a>
 
