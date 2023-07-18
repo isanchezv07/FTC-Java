@@ -128,8 +128,6 @@ A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y c
 <br>
 <br>
 <br>
-
-
 # Autónomo
 ## ¿Cómo funciona el Programa Autónomo?
 
