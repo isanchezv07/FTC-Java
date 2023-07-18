@@ -81,6 +81,7 @@ Este código es una base para el desarrollo del robot y puede ser modificado y m
 
 
 Al ejecutar el programa TeleOpRobot, se lleva a cabo una secuencia de inicialización. En este paso, el robot establece la conexión con los componentes de hardware necesarios para su funcionamiento. Además, se muestra información de telemetría en la pantalla para verificar que todo esté en orden.
+
 El codigo que se estará explicando es: <a href="TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java" style="color: white; background-color: #5bc0de; padding: 5px 10px; text-decoration: none; border-radius: 5px;"> `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/TeleOpRobot.java`</a>
 
 
