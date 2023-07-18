@@ -4,7 +4,7 @@ Bienbenido!
 
 En esta carpeta vas a encontrar varios ejemplos ya hechos por los miembros de Nautilus4010 para que puedan aprender como funciona la programacion detras de los robots de FTC(First Tech Challenge).
 
-Es de suma importancia leer todos los comentarios que tenga el codigo, ya que es de suma importancia para entender el codigo y no perderse.
+Es de suma importancia leer todos los comentarios que tenga el codigo, esto para comprender de una mejor manera el funcionamiento del codigo.
 
 ## Introducción
 
