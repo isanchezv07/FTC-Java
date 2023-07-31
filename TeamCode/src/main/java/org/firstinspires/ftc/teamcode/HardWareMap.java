@@ -88,9 +88,9 @@ public class HardWareMap {
 
         // Configurar las posiciones objetivo de los motores
         frontLeft.setTargetPosition(targetPosition);
-        frontRight.setTargetPosition(-targetPosition); 
+        frontRight.setTargetPosition(targetPosition); 
         backLeft.setTargetPosition(targetPosition);
-        backRight.setTargetPosition(-targetPosition);
+        backRight.setTargetPosition(targetPosition);
 
         // Configurar las velocidades de los motores y activar el control de posición
         setChassisPowers(AUTONOMOUS_SPEED);
