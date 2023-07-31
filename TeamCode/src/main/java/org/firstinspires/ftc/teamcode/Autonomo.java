@@ -30,5 +30,6 @@ public class Autonomo extends LinearOpMode {
         // Una vez que se presiona "Play", el robot ejecutará la acción específica de este programa.
         // En este caso, moverse hacia adelante por 5 centímetros llamando al método moveForward(5) del HardWareMap.
         robot.moveForward(5);
+        robot.lateralMove(10);
     }
 }
