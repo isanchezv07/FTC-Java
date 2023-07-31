@@ -171,10 +171,10 @@ public class HardWareMap {
         int targetPosition = (int) Math.round(distance * TICKS_PER_CM);
 
         // Configurar las posiciones objetivo de los motores para el movimiento lateral
-        frontLeft.setTargetPosition(targetPosition);
-        frontRight.setTargetPosition(targetPosition);
-        backLeft.setTargetPosition(targetPosition);
-        backRight.setTargetPosition(targetPosition);
+        frontLeft.setTargetPosition(-targetPosition);
+        frontRight.setTargetPosition(-targetPosition);
+        backLeft.setTargetPosition(-targetPosition);
+        backRight.setTargetPosition(-targetPosition);
 
         // Configurar las velocidades de los motores y activar el control de posición
         setChassisPowers(AUTONOMOUS_SPEED);
