@@ -24,12 +24,11 @@ public class Autonomo extends LinearOpMode {
         // Actualizamos los datos telemétricos para que se muestren en la estación de control.
         telemetry.update();
 
-        // Esperamos hasta que se presione el botón "Play" en la estación de control para comenzar el modo autónomo.
+        // Esperamos hasta que se presione el botón "Play" en la estación de control para comenzar el modo autónom
         waitForStart();
 
         // Una vez que se presiona "Play", el robot ejecutará la acción específica de este programa.
-        // En este caso, moverse hacia adelante por 5 centímetros llamando al método moveForward(5) del HardWareMap.
-        robot.moveForward(5);
-        robot.lateralMove(10);
+        // En este caso, moverse hacia adelante por 5 centímetros llamando al método moveForward(5) del HardWareMap
+        robot.turnRight(180);
     }
 }

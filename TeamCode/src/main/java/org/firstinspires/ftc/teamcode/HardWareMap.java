@@ -2,6 +2,7 @@
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.hardware.bosch.BNO055IMU;
 import org.firstinspires.ftc.robotcore.external.navigation.Orientation;
 import org.firstinspires.ftc.robotcore.external.navigation.Acceleration;
@@ -30,6 +31,7 @@ public class HardWareMap {
     private Acceleration gravity;
 
     private OpMode program;
+    
 
     // Constructor de la clase, recibe un objeto OpMode como parámetro
     public HardWareMap(OpMode program){
@@ -46,7 +48,9 @@ public class HardWareMap {
 
         // Configuración de las direcciones de rotación de los motores
         frontLeft.setDirection(DcMotor.Direction.REVERSE);
-        backLeft.setDirection(DcMotor.Direction.REVERSE);
+        backRight.setDirection(DcMotor.Direction.REVERSE);
+        frontRight.setDirection(DcMotor.Direction.REVERSE);
+        backLeft.setDirection(DcMotor.Direction.FORWARD);
 
         imu = hardwareMap.get(BNO055IMU.class, "imu2");
         initIMU();
@@ -87,10 +91,10 @@ public class HardWareMap {
         int targetPosition = (int) Math.round(distance * TICKS_PER_CM);
 
         // Configurar las posiciones objetivo de los motores
-        frontLeft.setTargetPosition(targetPosition);
-        frontRight.setTargetPosition(targetPosition); 
-        backLeft.setTargetPosition(targetPosition);
-        backRight.setTargetPosition(targetPosition);
+            frontLeft.setPower(-targetPosition);
+            frontRight.setPower(targetPosition);
+            backLeft.setPower(-targetPosition);
+            backRight.setPower(targetPosition);
 
         // Configurar las velocidades de los motores y activar el control de posición
         setChassisPowers(AUTONOMOUS_SPEED);
@@ -103,12 +107,15 @@ public class HardWareMap {
 
         // Obtener el ángulo de orientación actual
         double currentAngle = getAngle();
-
+        
         // Calcular el ángulo objetivo al girar hacia la derecha
         double targetAngle = currentAngle - angleToRotate;
 
         // Girar hacia la derecha hasta alcanzar el ángulo objetivo
         while(currentAngle > targetAngle ){
+            program.telemetry.addData("Target angle: ", targetAngle);
+            program.telemetry.addData("Current angle: ", currentAngle);
+            
             frontLeft.setPower(AUTONOMOUS_SPEED);
             frontRight.setPower(-AUTONOMOUS_SPEED);
             backLeft.setPower(AUTONOMOUS_SPEED);
@@ -172,9 +179,9 @@ public class HardWareMap {
 
         // Configurar las posiciones objetivo de los motores para el movimiento lateral
         frontLeft.setTargetPosition(-targetPosition);
-        frontRight.setTargetPosition(-targetPosition);
+        frontRight.setTargetPosition(targetPosition);
         backLeft.setTargetPosition(-targetPosition);
-        backRight.setTargetPosition(-targetPosition);
+        backRight.setTargetPosition(targetPosition);
 
         // Configurar las velocidades de los motores y activar el control de posición
         setChassisPowers(AUTONOMOUS_SPEED);
@@ -184,10 +191,10 @@ public class HardWareMap {
     // Método para mover el robot en una combinación de desplazamiento, lateralidad y giro
     public void move(double drive, double lateral, double turn, double multiplier){
         // Calcular las velocidades de cada motor según las entradas
-        double frontLeftPower  = (drive + lateral + turn) * multiplier;
-        double frontRightPower = (drive - lateral - turn) * multiplier;
-        double backLeftPower   = (drive - lateral + turn) * multiplier;
-        double backRightPower  = (drive + lateral - turn) * multiplier;
+        double frontLeftPower  = (drive + lateral - turn) * multiplier;
+        double frontRightPower = (drive - lateral + turn) * multiplier;
+        double backLeftPower   = (drive - lateral - turn) * multiplier;
+        double backRightPower  = (drive + lateral + turn) * multiplier;
 
         // Limitar las velocidades a valores entre -1 y 1
         frontLeft.setPower(Range.clip(frontLeftPower, -1, 1));
