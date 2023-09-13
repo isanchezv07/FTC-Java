@@ -12,6 +12,7 @@ Es de suma importancia leer todos los comentarios que tenga el código, esto par
 <br>
 <br>
 <br>
+
 ## ⚠Nota para Principiantes⚠
 <br>
 <br>
