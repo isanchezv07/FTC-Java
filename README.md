@@ -106,7 +106,7 @@ El programa TeleOpRobot permite controlar el robot de manera teleoperada utiliza
 ## Uso del Programa
 
 
-A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y controlar el robot NAUTILUS 4010:
+A continuación, se detallan los pasos para ejecutar el programa TeleOpRobot y controlar el robot de NAUTILUS 4010:
 
 
 1. Asegúrate de haber cargado este código en el sistema de control FTC y haber conectado correctamente todos los componentes del robot.
