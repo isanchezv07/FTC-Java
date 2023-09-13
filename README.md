@@ -14,12 +14,12 @@ Es de suma importancia leer todos los comentarios que tenga el código, esto par
 <br>
 
 ## ⚠Nota para Principiantes⚠
-<br>
-<br>
-<br>
 
 Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
 
+<br>
+<br>
+<br>
 
 ## Introducción
 
