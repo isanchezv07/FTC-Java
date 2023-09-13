@@ -10,6 +10,12 @@ En esta carpeta vas a encontrar varios ejemplos ya hechos por los miembros de Na
 Es de suma importancia leer todos los comentarios que tenga el código, esto para comprender de una mejor manera el funcionamiento del código.
 
 
+## Nota para Principiantes
+
+
+Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
+
+
 ## Introducción
 
 
@@ -170,12 +176,6 @@ Para usar el programa Autónomo en el robot NAUTILUS 4010, sigue estos pasos:
 
 
 Recuerda que este es solo un ejemplo básico del programa Autónomo. Puedes modificar el código para que el robot realice diferentes acciones y tareas de acuerdo con los requerimientos de tu competición o proyecto.
-
-
-## Nota para Principiantes
-
-
-Si eres nuevo en la programación de robots FTC, no te preocupes. Este código está diseñado para ser fácilmente comprensible y modificado según tus necesidades. A medida que adquieras más experiencia, puedes explorar y modificar las funcionalidades del robot para realizar tareas más complejas.
 
 
 ¡Gracias por tu interés en NAUTILUS 4010! Esperamos que disfrutes aprendiendo y explorando el mundo de la robótica y la programación con nosotros. ¡Buena suerte en tus aventuras con FTC! 🚀
