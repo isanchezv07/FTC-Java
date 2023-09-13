@@ -180,6 +180,5 @@ Recuerda que este es solo un ejemplo básico del programa Autónomo. Puedes modi
 
 <br>
 <br>
-<br>
 
 ¡Gracias por tu interés en NAUTILUS 4010! Esperamos que disfrutes aprendiendo y explorando el mundo de la robótica y la programación con nosotros. ¡Buena suerte en tus aventuras con FTC! 🚀
